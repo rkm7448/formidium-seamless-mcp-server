@@ -75,6 +75,25 @@ Add this block to your `claude_desktop_config.json`:
 }
 ```
 
+Or install via npx from GitHub:
+
+```json
+{
+  "mcpServers": {
+    "formidium-mcp": {
+      "command": "npx",
+      "args": ["-y", "github:rkm7448/formidium-seamless-mcp-server"],
+      "env": {
+        "FORMIDIUM_API_KEY": "your_api_key",
+        "FORMIDIUM_API_SECRET": "your_api_secret",
+        "FORMIDIUM_PASSPHRASE": "your_passphrase",
+        "FORMIDIUM_TIMEZONE": "Asia/Kolkata"
+      }
+    }
+  }
+}
+```
+
 Config file locations:
 - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
