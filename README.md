@@ -1,0 +1,1 @@
+# formidium-seamless-mcp-server
